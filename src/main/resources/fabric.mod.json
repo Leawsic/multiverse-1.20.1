@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "multiverse",
+	"version": "${version}",
+	"name": "Multiverse",
+	"description": "A simple mod",
+	"authors": [
+		"Leawsic",
+        "Darius Merrick"
+	],
+	"contact": {
+		"homepage": "https://blog.leawsic.site",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/multiverse/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.leawsic.multiverse.Multiverse"
+		],
+        "client": [
+            "com.leawsic.multiverse.MultiverseClient"
+        ],
+		"fabric-datagen": [
+			"com.leawsic.multiverse.MultiverseDataGenerator"
+		]
+	},
+	"mixins": [
+		"multiverse.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
