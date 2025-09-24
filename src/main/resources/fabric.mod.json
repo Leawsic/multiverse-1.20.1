@@ -3,14 +3,14 @@
 	"id": "multiverse",
 	"version": "${version}",
 	"name": "Multiverse",
-	"description": "A simple mod",
+	"description": "A simple mod that adds multiverse to game",
 	"authors": [
 		"Leawsic",
         "Darius Merrick"
 	],
 	"contact": {
 		"homepage": "https://blog.leawsic.site",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/Leawsic/multiverse-1.20.1"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/multiverse/icon.png",
