@@ -17,6 +17,7 @@ repositories {
 	// See https://docs.gradle.org/current/userguide/declaring_repositories.html
 	// for more information about repositories.
     maven { url 'https://maven.wispforest.io' }
+    maven {url = "https://maven.kyrptonaught.dev"}
 }
 
 fabricApi {
@@ -36,6 +37,9 @@ dependencies {
 
     modImplementation "io.wispforest:owo-lib:${project.owo_version}"
     include "io.wispforest:owo-sentinel:${project.owo_version}"
+
+    modImplementation 'net.kyrptonaught:customportalapi:0.0.1-beta65-1.20'
+    include 'net.kyrptonaught:customportalapi:0.0.1-beta65-1.20'
 }
 
 processResources {
